@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5e82b59-9d6d-4ef8-81b3-9eecdcb98375" name="Default" comment="" />
+    <list default="true" id="a5e82b59-9d6d-4ef8-81b3-9eecdcb98375" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/lukelavin/leveleditor/TextNotificationHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/customLevel0.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.37.17-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.38.28-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.42.14-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.44.58-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.45.27-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.47.02-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.58.02-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@20.58.44-1.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/logs/Game-07-Jul-2017@21.04.14-1.log" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PacmanLevelEditor/com/lukelavin/leveleditor/Main$1.class" afterPath="$PROJECT_DIR$/out/production/PacmanLevelEditor/com/lukelavin/leveleditor/Main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PacmanLevelEditor/com/lukelavin/leveleditor/Main.class" afterPath="$PROJECT_DIR$/out/production/PacmanLevelEditor/com/lukelavin/leveleditor/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PacmanLevelEditor/com/lukelavin/leveleditor/TileType.class" afterPath="$PROJECT_DIR$/out/production/PacmanLevelEditor/com/lukelavin/leveleditor/TileType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/Game.log" afterPath="$PROJECT_DIR$/logs/Game.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lukelavin/leveleditor/Main.java" afterPath="$PROJECT_DIR$/src/com/lukelavin/leveleditor/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/lukelavin/leveleditor/TileType.java" afterPath="$PROJECT_DIR$/src/com/lukelavin/leveleditor/TileType.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,16 +34,30 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3927">
-              <caret line="114" column="16" lean-forward="true" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+            <state relative-caret-position="-1339">
+              <caret line="293" column="86" lean-forward="false" selection-start-line="293" selection-start-column="86" selection-end-line="293" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#14120#14121#0" expanded="true" />
-                <element signature="e#14148#14149#0" expanded="true" />
+                <element signature="e#14693#14694#0" expanded="true" />
+                <element signature="e#14743#14744#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TextNotificationHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/TextNotificationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="884">
+              <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#465#466#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -33,12 +66,11 @@
       <file leaf-file-name="TileType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/TileType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="119">
+              <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
               <folding>
-                <element signature="e#255#256#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,25 +79,9 @@
       <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="272">
               <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#613#614#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#911#912#0" expanded="true" />
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#999#1000#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1160#1161#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-                <element signature="e#1250#1251#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -73,11 +89,9 @@
       <file leaf-file-name="EntityFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/EntityFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="425">
               <caret line="36" column="86" lean-forward="false" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -87,8 +101,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -97,13 +111,19 @@
       <find>private</find>
       <find>selectTool</find>
       <find>save</find>
+      <find>clearedNotif</find>
     </findStrings>
     <replaceStrings>
       <replace>public</replace>
       <replace>clear</replace>
       <replace>save</replace>
       <replace>savedText</replace>
+      <replace>notifTimer</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -116,9 +136,10 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Config.java" />
         <option value="$PROJECT_DIR$/src/EntityFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/lukelavin/leveleditor/TileType.java" />
         <option value="$PROJECT_DIR$/src/com/lukelavin/leveleditor/Config.java" />
         <option value="$PROJECT_DIR$/src/com/lukelavin/leveleditor/EntityFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/lukelavin/leveleditor/TileType.java" />
+        <option value="$PROJECT_DIR$/src/com/lukelavin/leveleditor/TextNotificationHandler.java" />
         <option value="$PROJECT_DIR$/src/com/lukelavin/leveleditor/Main.java" />
       </list>
     </option>
@@ -145,7 +166,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -196,12 +216,13 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.language" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/fxgl-0.3.4-uber.jar!/" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -443,6 +464,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a5e82b59-9d6d-4ef8-81b3-9eecdcb98375" name="Default" comment="" />
@@ -454,37 +478,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -499,15 +523,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#14693#14694#0" expanded="true" />
+            <element signature="e#14743#14744#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/TileType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/EntityFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="36" column="86" lean-forward="false" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -521,110 +572,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="272">
           <caret line="19" column="18" lean-forward="false" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#999#1000#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1250#1251#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customLevel.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/customLevel.txt" />
     <entry file="file://$PROJECT_DIR$/PacmanLevelEditor.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customLevel16.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customLevel3.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customLevel5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customLevel1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/customLevel16.txt" />
+    <entry file="file://$PROJECT_DIR$/customLevel3.txt" />
+    <entry file="file://$PROJECT_DIR$/customLevel5.txt" />
+    <entry file="file://$PROJECT_DIR$/customLevel1.txt" />
     <entry file="file://$PROJECT_DIR$/customLevel0.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/EntityFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
+        <state relative-caret-position="425">
           <caret line="36" column="86" lean-forward="false" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customLevel2.txt" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="818" column="0" lean-forward="false" selection-start-line="818" selection-start-column="0" selection-end-line="818" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/TileType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/customLevel2.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/TextNotificationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="884">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lukelavin/leveleditor/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3927">
-          <caret line="114" column="16" lean-forward="true" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="16" />
+        <state relative-caret-position="-1339">
+          <caret line="293" column="86" lean-forward="false" selection-start-line="293" selection-start-column="86" selection-end-line="293" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#14120#14121#0" expanded="true" />
-            <element signature="e#14148#14149#0" expanded="true" />
+            <element signature="e#14693#14694#0" expanded="true" />
+            <element signature="e#14743#14744#0" expanded="true" />
           </folding>
         </state>
       </provider>
