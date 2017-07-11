@@ -6,7 +6,7 @@ package com.lukelavin.leveleditor;
 public enum TileType
 {
     //Each tile type has a corresponding character code for the level parser in Pacman
-    BLOCK('B'), BLINKY('b'), PINKY('p'), INKY('i'), CLYDE('c'), PACMAN('P'), PELLET('.'), TELEPORTER('T');
+    BLOCK('B'), BLINKY('b'), PINKY('p'), INKY('i'), CLYDE('c'), PACMAN('P'), PELLET('.'), TELEPORTER('T'), BOOST('+'), POWERPELLET('o');
 
     private char code;
 

@@ -113,9 +113,11 @@ public class Main extends GameApplication
                 EntityFactory.newInky(GRID_SIZE_X + 2, 6),
                 EntityFactory.newPinky(GRID_SIZE_X + 2, 7),
                 EntityFactory.newPellet(GRID_SIZE_X + 2, 8),
-                EntityFactory.newTeleporter(GRID_SIZE_X + 2, 9),
-                EntityFactory.newPlayer(GRID_SIZE_X + 2, 10),
-                EntityFactory.newEraser(GRID_SIZE_X + 2, 11));
+                EntityFactory.newPowerPellet(GRID_SIZE_X + 2, 9),
+                EntityFactory.newTeleporter(GRID_SIZE_X + 2, 10),
+                EntityFactory.newPointBoost(GRID_SIZE_X + 2, 11),
+                EntityFactory.newPlayer(GRID_SIZE_X + 2, 12),
+                EntityFactory.newEraser(GRID_SIZE_X + 2, 13));
 
 
         //initialize the white square used to designate the current tool selected
@@ -231,6 +233,14 @@ public class Main extends GameApplication
             level[mouseYTile][mouseXTile] = EntityFactory.newPlayer(mouseXTile, mouseYTile);
             getGameWorld().addEntity(level[mouseYTile][mouseXTile]);
         }
+        else if(tool.equals("Power Pellet") && level[mouseYTile][mouseXTile] == null){
+            level[mouseYTile][mouseXTile] = EntityFactory.newPowerPellet(mouseXTile, mouseYTile);
+            getGameWorld().addEntity(level[mouseYTile][mouseXTile]);
+        }
+        else if(tool.equals("Point Boost") && level[mouseYTile][mouseXTile] == null){
+            level[mouseYTile][mouseXTile] = EntityFactory.newPointBoost(mouseXTile, mouseYTile);
+            getGameWorld().addEntity(level[mouseYTile][mouseXTile]);
+        }
         else if(tool.equals("Eraser")){
             if(level[mouseYTile][mouseXTile] != null)
             {
@@ -244,23 +254,33 @@ public class Main extends GameApplication
     {
         double toolsXPos = GRID_SIZE_X + 2;
 
-        if(mousePos.getY() >= 12 * BLOCK_SIZE)
+        if(mousePos.getY() >= 14 * BLOCK_SIZE)
         {
             // do nothing if not in proper range of the tools
         }
-        else if(mousePos.getY() >= 11 * BLOCK_SIZE)
+        else if(mousePos.getY() >= 13 * BLOCK_SIZE)
         {
             tool = "Eraser";
+            selecter.setPosition(new Point2D(toolsXPos * BLOCK_SIZE, 13 * BLOCK_SIZE));
+        }
+        else if(mousePos.getY() >= 12 * BLOCK_SIZE)
+        {
+            tool = "Pacman";
+            selecter.setPosition(new Point2D(toolsXPos * BLOCK_SIZE, 12 * BLOCK_SIZE));
+        }
+        else if(mousePos.getY() >= 11 * BLOCK_SIZE)
+        {
+            tool = "Point Boost";
             selecter.setPosition(new Point2D(toolsXPos * BLOCK_SIZE, 11 * BLOCK_SIZE));
         }
         else if(mousePos.getY() >= 10 * BLOCK_SIZE)
         {
-            tool = "Pacman";
+            tool = "Teleporter";
             selecter.setPosition(new Point2D(toolsXPos * BLOCK_SIZE, 10 * BLOCK_SIZE));
         }
         else if(mousePos.getY() > 9 * BLOCK_SIZE)
         {
-            tool = "Teleporter";
+            tool = "Power Pellet";
             selecter.setPosition(new Point2D(toolsXPos * BLOCK_SIZE, 9 * BLOCK_SIZE));
         }
         else if(mousePos.getY() > 8 * BLOCK_SIZE)

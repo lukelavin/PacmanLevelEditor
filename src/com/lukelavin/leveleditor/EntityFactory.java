@@ -3,7 +3,10 @@ package com.lukelavin.leveleditor;
 import com.almasb.fxgl.entity.Entities;
 import com.almasb.fxgl.entity.EntityView;
 import com.almasb.fxgl.entity.GameEntity;
+import com.almasb.fxgl.entity.RenderLayer;
 import com.almasb.fxgl.entity.component.CollidableComponent;
+import com.almasb.fxgl.physics.BoundingShape;
+import com.almasb.fxgl.physics.HitBox;
 import javafx.geometry.Point2D;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -157,7 +160,31 @@ public class EntityFactory
         return Entities.builder()
                 .at(x * BLOCK_SIZE, y * BLOCK_SIZE)
                 .type(TileType.TELEPORTER)
-                .viewFromNodeWithBBox(entityView)
+                .viewFromNode(entityView)
+                .build();
+    }
+
+    public static GameEntity newPowerPellet(double x, double y)
+    {
+        EntityView entityView = new EntityView(new Circle(BLOCK_SIZE / 4, Color.YELLOW));
+        entityView.setRenderLayer(bottom);
+
+        return Entities.builder()
+                .at(x * BLOCK_SIZE + BLOCK_SIZE / 4, y * BLOCK_SIZE + BLOCK_SIZE / 4)
+                .type(TileType.POWERPELLET)
+                .viewFromNode(entityView)
+                .build();
+    }
+
+    public static GameEntity newPointBoost(double x, double y)
+    {
+        EntityView entityView = new EntityView(new ImageView(new Image("assets//textures//cherry.png")));
+        entityView.setRenderLayer(bottom);
+
+        return Entities.builder()
+                .at(x * BLOCK_SIZE, y * BLOCK_SIZE)
+                .type(TileType.BOOST)
+                .viewFromNode(entityView)
                 .build();
     }
 }
